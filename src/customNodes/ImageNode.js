@@ -20,7 +20,7 @@ const ImageNode = ({ id, data }) => {
       padding: '10px',
       border: '1px solid #ddd',
       borderRadius: '5px',
-      backgroundColor: '#f9f9f9',
+      backgroundColor: data.color,
     }}>
       <Handle type="target" position="top" />
       <img src={myImage} alt="" style={{ width: '50px', height: '50px' }} />

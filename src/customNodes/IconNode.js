@@ -18,7 +18,7 @@ const IconNode = ({ id, data }) => {
     padding: '10px',
     border: '1px solid #ddd',
     borderRadius: '25px',
-    backgroundColor: '#f9f9f9',
+    backgroundColor: data.color,
   }}>
     <Handle type="target" position="left" />
     <FontAwesomeIcon icon={faCoffee} />
